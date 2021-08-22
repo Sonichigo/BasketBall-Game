@@ -25,7 +25,7 @@ backgroundObj.image.src = "./sat.png"
 // Plane
 const playObj = { speed: 300, width: 180, height: 280, image: new Image(), ready: false }
 playObj.image.onload = () => playObj.ready = true
-playObj.image.src = "./plane1.png"
+playObj.image.src = "./player.png"
 
 // Bird 
 const ballObj = { width: 60, height: 60, image: new Image(), ready: false }
